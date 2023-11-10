@@ -27,7 +27,7 @@ class Bot:
 
     def __init__(self):
         self.team = CREATOR  # Mandatory attribute
-        self.avatar = 1  # Optional attribute
+        self.avatar = 34  # Optional attribute
         self.course = [
             # Checkpoint(latitude=43.797109, longitude=-11.264905, radius=50),
 
