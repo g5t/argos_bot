@@ -16,28 +16,81 @@ from vendeeglobe import (
 )
 from vendeeglobe.utils import distance_on_surface
 
-CREATOR = "TeamName"  # This is your team name
+CREATOR = "Argos"  # This is your team name
 
 
 class Bot:
     """
-    This is the ship-controlling bot that will be instantiated for the competition.
+    This is the ship-controlling bot that will be instantiated for the competition
+    for the Argos
     """
 
     def __init__(self):
         self.team = CREATOR  # Mandatory attribute
         self.avatar = 1  # Optional attribute
         self.course = [
-            Checkpoint(latitude=43.797109, longitude=-11.264905, radius=50),
-            Checkpoint(longitude=-29.908577, latitude=17.999811, radius=50),
-            Checkpoint(latitude=-11.441808, longitude=-29.660252, radius=50),
-            Checkpoint(longitude=-63.240264, latitude=-61.025125, radius=50),
+            # Checkpoint(latitude=43.797109, longitude=-11.264905, radius=50),
+
+            # 0
+            Checkpoint(latitude=18.579, longitude=-67.780, radius=10),
+            # 1
+            Checkpoint(latitude=17.775, longitude=-68.250, radius=10),
+            # 2
+            Checkpoint(latitude=9.813, longitude=-79.850, radius=5),
+            # 3
+            Checkpoint(latitude=6.824, longitude=-79.597, radius=5),
+
+            # 4
             Checkpoint(latitude=2.806318, longitude=-168.943864, radius=1990.0),
-            Checkpoint(latitude=-62.052286, longitude=169.214572, radius=50.0),
+            # 5
+            Checkpoint(latitude=2.970, longitude=127.167, radius=10.0),
+            # 6
+            Checkpoint(latitude=2.970, longitude=125.167, radius=10.0),
+            # 7
+            Checkpoint(latitude=2.350, longitude=119.839, radius=10.0),
+            # 8
+            Checkpoint(latitude=-8, longitude=115.70, radius=10.0),
+            # 9
+            Checkpoint(latitude=-8.994, longitude=115.70, radius=10.0),
+
+            # 10
             Checkpoint(latitude=-15.668984, longitude=77.674694, radius=1190.0),
-            Checkpoint(latitude=-39.438937, longitude=19.836265, radius=50.0),
-            Checkpoint(latitude=14.881699, longitude=-21.024326, radius=50.0),
-            Checkpoint(latitude=44.076538, longitude=-18.292936, radius=50.0),
+            # 11
+            Checkpoint(latitude=14.562, longitude=54.053, radius=10.0),
+            # 12
+            Checkpoint(latitude=12.104, longitude=43.783, radius=10.0),
+            # 13
+            Checkpoint(latitude=19.699, longitude=38.441, radius=10.0),
+            # 14
+            Checkpoint(latitude=27.176, longitude=34.209, radius=10.0),
+
+            # 15
+            Checkpoint(latitude=29.3894, longitude=32.6486, radius=10.0),
+            # 16
+            Checkpoint(latitude=31.3894, longitude=32.41, radius=10.0),
+
+            # 17
+            Checkpoint(latitude=31.8, longitude=32.410, radius=10.0),
+
+
+            Checkpoint(latitude=35.8, longitude=15.410, radius=10.0),
+
+            # 17
+            Checkpoint(latitude=38.857, longitude=4.555, radius=300.0),
+            # 18
+            Checkpoint(latitude=35.960, longitude=-3.680, radius=10.0),
+            # 19
+            Checkpoint(latitude=36.00, longitude=-6.757, radius=10.0),
+
+            # 20
+            Checkpoint(latitude=36.950, longitude=-9.327, radius=10.0),
+
+            # west of portugal
+            Checkpoint(latitude=39.150, longitude=-9.7, radius=10.0),
+
+            # North west portugal
+            Checkpoint(latitude=43.213, longitude=-9.514, radius=10.0),
+
             Checkpoint(
                 latitude=config.start.latitude,
                 longitude=config.start.longitude,

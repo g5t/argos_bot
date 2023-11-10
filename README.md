@@ -1,2 +1,2 @@
-# template_bot
-Template python bot for vendeeglobe game tournament
+# The Argos bot
+Python bot for vendeeglobe game tournament implementing Jason's famed ship
