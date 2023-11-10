@@ -40,23 +40,26 @@ class Bot:
             # 3
             Checkpoint(latitude=6.824, longitude=-79.597, radius=5),
 
+            Checkpoint(latitude=6.85, longitude=-82.597, radius=5),
+
             # 4
-            Checkpoint(latitude=2.806318, longitude=-168.943864, radius=1990.0),
+            # Checkpoint(latitude=2.806318, longitude=-168.943864, radius=1990.0),
             # 5
-            Checkpoint(latitude=2.970, longitude=127.167, radius=10.0),
+            Checkpoint(latitude=2.920, longitude=127.167, radius=10.0),
             # 6
             Checkpoint(latitude=2.970, longitude=125.167, radius=10.0),
             # 7
             Checkpoint(latitude=2.350, longitude=119.839, radius=10.0),
             # 8
-            Checkpoint(latitude=-8, longitude=115.70, radius=10.0),
+            Checkpoint(latitude=-8, longitude=115.80, radius=10.0),
             # 9
             Checkpoint(latitude=-8.994, longitude=115.70, radius=10.0),
 
             # 10
-            Checkpoint(latitude=-15.668984, longitude=77.674694, radius=1190.0),
+            Checkpoint(latitude=-5.5, longitude=79.5, radius=200.0),
+            # Checkpoint(latitude=-15.668984, longitude=77.674694, radius=1190.0),
             # 11
-            Checkpoint(latitude=14.562, longitude=54.053, radius=10.0),
+            Checkpoint(latitude=13.5, longitude=53.5, radius=10.0),
             # 12
             Checkpoint(latitude=12.104, longitude=43.783, radius=10.0),
             # 13
